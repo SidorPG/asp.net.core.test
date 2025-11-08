@@ -1,10 +1,13 @@
-﻿namespace Api.Middleware;
+using Api.Exceptions;
+using Data;
+using Data.Models;
+  
+namespace Api.Middleware;
 
 public class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
     private readonly ILogger _logger;
-    private readonly ApplicationDbContext dbContext;
 
     public ExceptionHandlingMiddleware(RequestDelegate next, ILoggerProvider loggerProvider)
     {

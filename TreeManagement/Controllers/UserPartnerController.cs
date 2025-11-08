@@ -1,4 +1,7 @@
 using System.ComponentModel.DataAnnotations;
+using Api.Models;
+using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace Data.Controllers
 {

@@ -1,3 +1,6 @@
+using Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace Api.Middleware;
 
 public class RequestIdMiddleware(RequestDelegate next)

@@ -1,3 +1,5 @@
+using Api.Middleware;
+
 namespace Api.Extentions;
 
 public static class ExceptionHandlerMiddlewareExtention

@@ -1,4 +1,8 @@
 using System.Reflection;
+using Api.Models;
+using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 public class ExampleSchemaFilter : ISchemaFilter
 {

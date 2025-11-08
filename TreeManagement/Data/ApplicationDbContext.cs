@@ -1,4 +1,7 @@
-﻿namespace Data;
+namespace Data;
+
+using Data.Models;
+using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext
 {

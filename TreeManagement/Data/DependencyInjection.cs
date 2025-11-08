@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace Data;
 
 public static class DependencyInjection

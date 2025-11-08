@@ -1,3 +1,10 @@
+using Api.Exceptions;
+using Api.Models;
+using Api.Models.UserJournal;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.Annotations;
+
 namespace Data.Controllers
 {
     /// <summary>
